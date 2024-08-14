@@ -1,0 +1,106 @@
+body{
+  background: #88C663;
+}
+.container{
+  margin-top: 80px;
+}
+.card {
+  background-color: #ffffffac;
+  border-radius: 10px;
+  padding: 20px;
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  color: #88C663;
+  font-size: 28px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.group {
+  position: relative;
+}
+
+.form .group label {
+  font-size: 14px;
+  color: rgb(43, 43, 43);
+  position: absolute;
+  top: -10px;
+  left: 10px;
+  background-color: #d8d8d8;
+  transition: all .3s ease;
+}
+
+.form .group input,
+.form .group textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  outline: 0;
+  width: 50%;
+  background-color: transparent;
+}
+
+.form .group input:placeholder-shown+ label, .form .group textarea:placeholder-shown +label {
+  top: 10px;
+  background-color: transparent;
+}
+
+.form .group input:focus,
+.form .group textarea:focus {
+  border-color: #88be69;
+}
+
+.form .group input:focus+ label, .form .group textarea:focus +label {
+  top: -10px;
+  left: 10px;
+  background-color: #fff;
+  color: #88C663;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.form .group textarea {
+  resize: none;
+  height: 150px;
+}
+
+/* linea Horizontal */
+
+.form .lineaVertical{
+  background-color: #000;
+  height: 250px;
+}
+
+/* imagers e audio */
+
+
+
+/* button */
+.form button{
+  background-color: #88C663;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  width: 100px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.form button:hover {
+  background-color: #6dac48;
+}
+
