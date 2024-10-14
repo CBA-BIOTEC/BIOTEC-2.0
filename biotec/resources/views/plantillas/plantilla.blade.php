@@ -99,7 +99,7 @@
             <!-- Mostrar nombre del usuario autenticado -->
             <div class="d-flex ms-auto">
               @if (Auth::check())
-              <a href="{{ route('profile') }}" class="btn btn-success nav-item ms-3" style="font-family: 'Father Bold', sans-serif; display: flex; align-items: center;">
+              <a href="{{ route('profile') }}" class="btn btn-danger nav-item ms-3" style="font-family: 'Father Bold', sans-serif; display: flex; align-items: center;">
                 <!-- Ícono del SENA en formato SVG -->
                 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1000 1000" style="enable-background:new 0 0 1000 1000;" xml:space="preserve" height="2.4em" style="margin-right: 20px;"> <!-- Aumentado a 2.4em y margen derecho de 10px -->
                   <style type="text/css">
