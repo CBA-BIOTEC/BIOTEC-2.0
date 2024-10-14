@@ -99,7 +99,7 @@
             <!-- Mostrar nombre del usuario autenticado -->
             <div class="d-flex ms-auto">
               @if (Auth::check())
-              <a href="{{ route('profile') }}" class="btn btn-danger nav-item ms-3" style="font-family: 'Father Bold', sans-serif; display: flex; align-items: center;">
+              <a href="{{ route('profile') }}" class="btn btn-success nav-item ms-3" style="font-family: 'Father Bold', sans-serif; display: flex; align-items: center;">
                 <!-- Ícono del SENA en formato SVG -->
                 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1000 1000" style="enable-background:new 0 0 1000 1000;" xml:space="preserve" height="2.4em" style="margin-right: 20px;"> <!-- Aumentado a 2.4em y margen derecho de 10px -->
                   <style type="text/css">
@@ -125,12 +125,9 @@
               </a>
               @else
                   <!-- Si no está autenticado, mostrar enlaces para iniciar sesión o registrarse -->
-                  <li class="nav-item">
-                      <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
-                  </li>
+                <a class="btn btn-primary nav-item me-3" href="{{ route('login') }}">{{ __('Login') }}</a>
+                <a class="btn btn-warning nav-item" href="{{ route('register') }}">{{ __('Register') }}</a>
+                 
               @endif
             </div>            
           
@@ -177,7 +174,7 @@
               <div class="col-sm-6 col-md-3">
                 <h6>Quick Links</h6>
                 <ul class="footer-links">
-                  <li><a href="">Contact Us</a></li>
+                  <li><a href="/about_us">Contact Us</a></li>
                   <li><a href="">Information</a></li>
                   <li><a href="">Privacy Policy</a></li>
                   <li><a href="">Concerns, Petitions, Complaints and Grievances</a></li>

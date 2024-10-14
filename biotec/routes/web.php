@@ -11,6 +11,7 @@ use App\Http\Controllers\LoginController; # Importacion de controlador para el l
 use App\Http\Controllers\Auth\AuthenticatedSessionController; # Importacion de controlador para la sesion autenticada
 use App\Http\Controllers\BiotecController; # Importacion de controlador para biotec
 use App\Http\Controllers\ProfileController; # Importacion de controlador para el perfil
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -58,3 +59,7 @@ Route::middleware('auth')->group(function () {
 });
 // Ruta protegida que utiliza el controlador BiotecController
 Route::get('/biotec', [BiotecController::class, 'index']);
+
+Route::get('/about_us', function () {
+    return view('about_us'); // Nombre del archivo de vista sin la extensión .blade.php
+});
