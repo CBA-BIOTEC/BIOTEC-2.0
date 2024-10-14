@@ -1,9 +1,22 @@
+@font-face {
+  font-family: 'Father Bold';
+  src: url('/fonts/FatherBold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
 body{
   background: #88C663;
+  font-family: 'Father Bold', sans-serif;
 }
 .container{
   margin-top: 80px;
 }
+
+.nav-link {
+  font-family: 'Father Bold', sans-serif; /* Cambia 'Father Bold' por la fuente que prefieras */
+}
+
 .card {
   background-color: #ffffffac;
   border-radius: 10px;
@@ -50,6 +63,7 @@ body{
   outline: 0;
   width: 50%;
   background-color: transparent;
+  font-family: 'Father Bold', sans-serif;
 }
 
 .form .group input:placeholder-shown+ label, .form .group textarea:placeholder-shown +label {

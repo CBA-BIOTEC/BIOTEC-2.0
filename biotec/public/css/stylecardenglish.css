@@ -1,19 +1,26 @@
-.card {
-  /* width: 300px; */
+.cards {
+  width: 300px; 
   height: 210px;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: rgb(255, 255, 255);
-  transition: 0.2s ease-in-out;
+  background-color: rgba(143, 209, 128, 0.689);
+  transition: 1s ease-in-out;
+  overflow: hidden; /* Para que el contenido no sobresalga de los bordes redondeados */
+  position: relative; /* Necesario para la correcta posición de los elementos dentro */
 }
 
-.img {
-  height: 100%;
-  position: absolute;
+.cards img {
+  width: 100%;/* Ocupa el 100% del ancho de la tarjeta */
+  height: 100%;/* Ocupa el 100% del alto de la tarjeta */
+  position: absolute; /* Permite que la imagen esté en el fondo */
+  top: 50%; /* Mueve la imagen al centro vertical */
+  left: 50%; /* Mueve la imagen al centro horizontal */
   transition: 0.2s ease-in-out;
+  transform: translate(-50%, -50%); /* Ajusta la posición para centrar la imagen */
+  object-fit: cover; /* Asegura que la imagen cubra el contenedor sin deformarse */
   z-index: 1;
   border-radius: 20px;
 }
@@ -46,15 +53,15 @@
   text-align: center;
 }
 
-.card:hover > .textBox {
+.cards:hover > .textBox {
   opacity: 1;
-  /* background-color: rgb(255, 255, 255); */
+  background-color: rgba(143, 209, 128, 0.689); /* Fondo verde */
 }
 
-.card:hover > .img {
+.cards:hover > .img {
   height: 30%;
-  filter: blur(70px);
-  animation: anim 3s infinite;
+  filter: blur(10px);
+  animation: anim 1s infinite;
 }
 
 @keyframes anim {
@@ -71,6 +78,6 @@
   }
 }
 
-.card:hover {
+.cards:hover {
   transform: scale(1.04) rotate(-1deg);
 }

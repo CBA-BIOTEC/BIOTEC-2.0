@@ -1,0 +1,72 @@
+/* Estilos para centrar la card y personalizar la estructura */
+@font-face {
+    font-family: 'Father Bold';
+    src: url('/fonts/FatherBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+.info-section {
+    display: flex;
+    flex-direction: column; /* Alinea los elementos en una columna */
+    align-items: flex-start; /* Alinea a la izquierda */
+    padding: 20px; /* Espacio interno de la tarjeta */
+}
+
+
+
+.label {
+    font-weight: bold; /* Puedes hacer el texto más oscuro para destacarlo */
+    margin-bottom: 5px; /* Margen inferior entre el label y el contenido */
+}
+
+
+
+
+.epa-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1a9d37ca;
+}
+
+.profile-card {
+    width: 100%;
+    max-width: 6000px; /* Ajusta el ancho de la card */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Sombra para darle relieve */
+}
+
+
+
+
+
+.user-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px; /* Ajusta la separación entre las secciones */
+}
+
+
+
+.username, .email, .password {
+    font-size: 1.1rem;
+    margin-left: 20px; /* Separación extra debajo del título */
+    color: #1f21209a;
+}
+
+.button-section .btn {
+    width: 45%; /* Asegura que los botones no sean muy pequeños ni muy grandes */
+}
+
+.ml-3 {
+    margin-left: 10px; /* Separación entre botones */
+}
+
+.button-out{
+    font-family: 'Father Bold', sans-serif; /* Aplica la fuente personalizada */
+    font-size: 16px; /* Tamaño de la fuente */
+    text-align: center; /* Centra el texto dentro del botón */
+    
+}

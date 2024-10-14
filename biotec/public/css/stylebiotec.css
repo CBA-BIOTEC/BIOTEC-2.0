@@ -2,6 +2,15 @@
 /*
 *CARROUSEL
 */
+
+@font-face {
+  font-family: 'Father Bold';
+  src: url('/fonts/FatherBold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+
 .carousel-item img{
   max-height: 50vh;
   object-fit: cover;
@@ -82,6 +91,8 @@ text{
   
   
 }
+
+
 @media (min-width: 578px) {
   .showcase .showcase {
     padding: 5rem;
@@ -90,7 +101,11 @@ text{
   .showcase .showcase-text {
     padding: 6rem;
   }
+  
 }
+
+
+
 
 ::-webkit-scrollbar {
   display: none;
@@ -105,7 +120,12 @@ text{
   
   .navbar{
     background-color: #88C663;
+    font-family: 'Father Bold', sans-serif;
   }
+  .nav-link {
+    font-family: 'Father Bold', sans-serif; 
+  }
+  
   .primary-text {
     color: var(--main-text-color);
   }
@@ -123,6 +143,7 @@ text{
   }
   
  
+
   #sidebar-wrapper{
    background-color: #88CB66; 
   }
@@ -321,6 +342,8 @@ text{
   cursor: pointer;
 }
 
+
+
 #ima{
   position: relative;
 }
@@ -333,5 +356,85 @@ text{
   background-color: rgba(0, 0, 0, 0.3);
   color: #ffffff;
 }
+
+/* Estilos para la barra de navegación */
+.navbar {
+  /* Color de fondo de la barra de navegación */
+  background-color: #88C663;
+}
+
+.navbar-brand img {
+  /* Tamaño del logotipo dentro de la barra de navegación */
+  width: 140px;
+}
+
+.navbar-nav .nav-link {
+  /* Fuente y estilo para los enlaces de navegación */
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+  font-size: 17px; /* Tamaño de fuente para los enlaces */
+}
+
+.navbar-toggler {
+  /* Elimina el borde del botón hamburguesa en pantallas pequeñas */
+  border: none;
+}
+
+/* Estilos para los menús desplegables */
+.dropdown-menu {
+  
+  background-color: #ffffff; /* Color de fondo del menú desplegable */
+ 
+  flex-direction: column; /* Coloca los elementos en una columna */
+  align-items: center; /* Centra horizontalmente los elementos */
+  padding: 10px 0; /* Añade un poco de espacio alrededor de los elementos */
+}
+
+.dropdown-item:hover {
+  /* Color de fondo y texto al pasar el ratón sobre un elemento del menú */
+  background-color: #009d63;
+  color: #fff;
+  width: 100%; /* Ocupar el 100% del ancho del menú */
+  text-align: center; /* Centra el texto de los elementos */
+  padding: 10px; /* Espaciado alrededor de cada item */
+
+}
+
+
+/* Animación de fondo para simular el pasto */
+.animated-background {
+  /* Fondo en degradado que simula el pasto */
+  background: linear-gradient(270deg, #f5f6f5, #caf9bb, #f5f6f5);
+  /* El fondo se escala para permitir el efecto de movimiento */
+  background-size: 800% 800%;
+  /* Animación para el fondo que cambia lentamente de posición */
+  animation: backgroundAnimation 20s ease infinite;
+}
+
+/* Configuración para asegurar que el cuerpo y el HTML ocupen todo el espacio */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden; /* Evita el desplazamiento horizontal */
+}
+
+/* Definición de la animación para el fondo */
+@keyframes backgroundAnimation {
+  /* El fondo se mueve de izquierda a derecha y luego regresa a su posición original */
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Asegura que el contenido de la página se superponga al fondo animado */
+#page-content-wrapper {
+  /* Posiciona el contenido relativo al contenedor */
+  position: relative;
+  /* El contenido tiene una prioridad mayor para que esté por encima del fondo */
+  z-index: 10;
+}
+
+/* Puedes ajustar el z-index de otros elementos si es necesario */
 
 

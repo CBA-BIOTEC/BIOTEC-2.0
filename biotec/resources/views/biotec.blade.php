@@ -3,7 +3,7 @@
 @section('content')
 <div class="container-expand-lg">
 <section class="section">
-  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div id="carouselExampleCaptions" class="carousel slide " data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true"></button>
@@ -11,15 +11,15 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="images/bio/bio.png" class="d-block w-100 " alt="...">
+        <img src="images/bio/bio.png" class="d-block w-100 rounded" alt="...">
         <div class="carousel-caption d-none d-md-block"></div>
       </div>
       <div class="carousel-item">
-        <img src="images/bio/biotec5.jpg" class="d-block w-100" alt="...">
+        <img src="images/bio/biotec5.jpg" class="d-block w-100 rounded" alt="...">
         <div class="carousel-caption d-none d-md-block"></div>
       </div>
       <div class="carousel-item">
-        <img src="images/bio/biotec4.jpg" class="d-block w-100" alt="...">
+        <img src="images/bio/biotec4.jpg" class="d-block w-100 rounded" alt="...">
         <div class="carousel-caption d-none d-md-block"></div>
       </div>
     </div>
@@ -41,7 +41,7 @@
   <header class="text-center">
     <h1 class="display-3 font-weight-bold">BIO-TEC</h1>
     <p class="font-calibri text-muted mb-0">A project by apprentices, for apprentices.</p>
-    <p class="font-calibri">Made by:<a href="https://bootstrapious.com/" class="text-muted">
+    <p class="font-calibri">Made by:<a href="http://senabiotecnologia.blogspot.com/" class="text-muted">
         <u>Sena</u></a>
     </p>
   </header>
@@ -152,7 +152,7 @@
             </div>
           </div>
         </div>
-      <br>
+
 
       <div class="col-lg-4 mb-3 mb-lg-0 col-md-6">
         <div class="hover hover-3 text-white rounded"><img src="images/bio/greybio.jpg" alt="">
@@ -178,7 +178,7 @@
       </div>
     </div>
   </div>
-</div>
+
 
   <!-- IMAGE CONTET-->
   <section class="showcase mx-3">
@@ -235,7 +235,7 @@
         </div>
     </div>
   </div>
-</div>
+
 
   <!------------MODALS--ANIMALS--------------->
   <div class="modal modal fade" id="Modalanimal" tabindex="-1" role="dialog" aria-hidden="true">
@@ -274,8 +274,9 @@
   </div>
 
    
-  <!-- /#page-content-wrapper -->
-  <section id="Information">
+ 
+<!-- /#page-content-wrapper -->
+<section id="Information">
   <footer class="site-footer">
     <div class="container">
       <div class="row">
@@ -294,9 +295,9 @@
         <div class="col-sm-6 col-md-3">
           <h6>Categories</h6>
           <ul class="footer-links">
-            <li><a href="http://scanfcode.com/category/front-end-development/">Vegetal Biotechnology</a></li>
-            <li><a href="http://scanfcode.com/category/back-end-development/">Animal Biotechnology</a></li>
-            <li><a href="http://scanfcode.com/category/java-programming-language/">Library</a></li>
+            <li><a href="#VEGETAL_BIOTECHNOLOGY" class="selected">Vegetal Biotechnology</a></li>
+            <li><a href="#ANIMAL_BIOTECHNOLOGY" >Animal Biotechnology</a></li>
+            <li><a href="#ACTIVITIES">Activities</a></li>
             <li><a href="http://scanfcode.com/category/java-programming-language/">Games</a></li>
           </ul>
         </div>
@@ -304,15 +305,33 @@
         <div class="col-sm-6 col-md-3">
           <h6>Quick Links</h6>
           <ul class="footer-links">
-            <li><a href="http://scanfcode.com/contact/">Contact Us</a></li>
-            <li><a href="http://scanfcode.com/contribute-at-scanfcode/">Information</a></li>
-            <li><a href="http://scanfcode.com/privacy-policy/">Privacy Policy</a></li>
-            <li><a href="http://scanfcode.com/sitemap/">Concerns, Petitions, Complaints and Grievances</a></li>
+            <li><a href="">Contact Us</a></li>
+            <li><a href="">Information</a></li>
+            <li><a href="">Privacy Policy</a></li>
+            <li><a href="">Concerns, Petitions, Complaints and Grievances</a></li>
           </ul>
+        </div>
+      </div>
+
+      <!-- Nueva sección para redes sociales y contacto -->
+      <div class="social-media-contact">
+        <div class="social-media">
+          <h6>Follow Us</h6>
+          <a href="https://www.facebook.com/profile.php?id=61565922017389" class="social-icon"><img src="images/concepts/facebook.png" alt="Facebook"></a>
+          <a href="https://twitter.com/@cbabiotecsena" class="social-icon"><img src="images/concepts/gorjeo.png" alt="Twitter"></a>
+          <a href="https://www.instagram.com/biotecsena/" class="social-icon"><img src="images/concepts/instagram.png" alt="Instagram"></a>
+          <a href="https://www.linkedin.com/in/biotec-sena-7197b532b/" class="social-icon"><img src="images/concepts/linkedin.png" alt="LinkedIn"></a>
+      
+        </div>
+
+        <div class="contact">
+          <h6>Contact Us</h6>
+          <p>Email: <a href="mailto:cbabiotecsena@gmail.com">cbabiotecsena@gmail.com</a></p>
         </div>
       </div>
     </div>
   </footer>
 </section>
-</div>
+
 @endsection
+  

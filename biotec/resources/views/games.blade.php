@@ -37,7 +37,7 @@
       <div class="hover-2-content">
         <!--Match-->
         <p class="hover-2-description font-weight-light mb-5 mt-5  px-2">Test your memory and ease of relating the different concepts of laboratory elements with this activity. </p>
-        <a href="" class="hover-2-description fw-bold font-italic text-white mt-5 pb-1 px-4"> <i class="fa-solid fa-gamepad" style="color: #ffffff;"></i> Play!</a>
+        <a href="https://es.educaplay.com/recursos-educativos/20567292-laboratory_elements.html" class="hover-2-description fw-bold font-italic text-white mt-5 pb-1 px-4"> <i class="fa-solid fa-gamepad" style="color: #ffffff;"></i> Play!</a>
         </div>
       </div>
     </div>
@@ -118,42 +118,4 @@
 </div>
 </section>
 
-    <!-- Pie de pagina -->
-        <!-- /#page-content-wrapper -->
-    <section id="Information">
-    <footer class="site-footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12 col-md-6">
-            <h6>About</h6>
-            <p class="text-justify fw-semibold"><i>BIOTEC</i> is a project created by trainees to satisfy the deficiencies in the English language presented by some of the SENA programs; in this case, Biotechnology and its branches. We hope you can enjoy and use <i>biotec</i> as a support tool.</p>
-            <p align="justify" class="d-none d-lg-block">Developed by: <br>
-              Program: Software analysis and development.<br>
-              Sena-CBA
-          </div>
 
-          <div class="col-sm-6 col-md-3">
-            <h6>Categories</h6>
-            <ul class="footer-links">
-              <li><a href="http://scanfcode.com/category/front-end-development/">Vegetal Biotechnology</a></li>
-              <li><a href="http://scanfcode.com/category/back-end-development/">Animal Biotechnology</a></li>
-              <li><a href="http://scanfcode.com/category/java-programming-language/">Library</a></li>
-              <li><a href="http://scanfcode.com/category/java-programming-language/">Games</a></li>
-            </ul>
-          </div>
-
-          <div class="col-sm-6 col-md-3">
-            <h6>Quick Links</h6>
-            <ul class="footer-links">
-              <li><a href="http://scanfcode.com/contact/">Contact Us</a></li>
-              <li><a href="http://scanfcode.com/contribute-at-scanfcode/">Information</a></li>
-              <li><a href="http://scanfcode.com/privacy-policy/">Privacy Policy</a></li>
-              <li><a href="http://scanfcode.com/sitemap/">Concerns, Petitions, Complaints and Grievances</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </footer>
-  </section>
-</div>
-@endsection

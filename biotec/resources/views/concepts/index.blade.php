@@ -10,7 +10,7 @@
 <div class="row">
 @foreach($conceptCont as $conceptVist)
     <div class="col-lg-4 col-md-6 col-sm-12 mb-4 py-2 d-flex justify-content-center"> 
-        <div class="card" style="width: 18rem;">
+        <div class="cards" style="width: 18rem;">
             <img src="images/concepts/{{$conceptVist->img}}" class="img" width="100%" height="100%">
             <div class="textBox">
             <p class="text head">{{$conceptVist->concept}}</p>
