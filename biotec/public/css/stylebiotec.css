@@ -394,7 +394,6 @@ text{
   background-color: #009d63;
   color: #fff;
   width: 100%; /* Ocupar el 100% del ancho del menú */
-  text-align: center; /* Centra el texto de los elementos */
   padding: 10px; /* Espaciado alrededor de cada item */
 
 }

@@ -1,77 +1,77 @@
 @extends('plantillas.plantilla')
 
 @section('content')
-<div class="container-expand-lg">
-<section class="section">
-  <div id="carouselExampleCaptions" class="carousel slide " data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+<div class="container-fluid">
+  <section class="section">
+    <div id="carouselExampleCaptions" class="carousel slide " data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/bio/bio.png" class="d-block w-100 rounded" alt="...">
+          <div class="carousel-caption d-none d-md-block"></div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/bio/biotec5.jpg" class="d-block w-100 rounded" alt="...">
+          <div class="carousel-caption d-none d-md-block"></div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/bio/biotec4.jpg" class="d-block w-100 rounded" alt="...">
+          <div class="carousel-caption d-none d-md-block"></div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="images/bio/bio.png" class="d-block w-100 rounded" alt="...">
-        <div class="carousel-caption d-none d-md-block"></div>
-      </div>
-      <div class="carousel-item">
-        <img src="images/bio/biotec5.jpg" class="d-block w-100 rounded" alt="...">
-        <div class="carousel-caption d-none d-md-block"></div>
-      </div>
-      <div class="carousel-item">
-        <img src="images/bio/biotec4.jpg" class="d-block w-100 rounded" alt="...">
-        <div class="carousel-caption d-none d-md-block"></div>
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-</section>
+  </section>
 
 <!-----PAGE CONTENT---->
 
-<div class="container py-5 my-1">
-  <!-- For Demo Purpose -->
-  <header class="text-center">
-    <h1 class="display-3 font-weight-bold">BIO-TEC</h1>
-    <p class="font-calibri text-muted mb-0">A project by apprentices, for apprentices.</p>
-    <p class="font-calibri">Made by:<a href="http://senabiotecnologia.blogspot.com/" class="text-muted">
-        <u>Sena</u></a>
-    </p>
-  </header>
-
-  <!-- DEMO 1 -->
-  <div class="py-5" id="WTIS">
-  <div class="row g-0 align-items-center justify-content-center">
-  <center>
-    <h2>BIOTECHNOLOGY</h2>
-      <p class="font-calibri text-muted mb-0 p-2 mb-5">In its most general conception, biotechnology refers to the use of living organisms or their subcellular components for the production of substances, development of processes or creation of services. Biotechnology includes several branches such as environmental, human, plant, industrial and animal. In this article we present some aspects of animal biotechnology, particularly those derived from the knowledge and manipulation of genetic material.
+  <div class="container py-5 my-1">
+    <!-- For Demo Purpose -->
+    <header class="text-center">
+      <h1 class="display-3 font-weight-bold">BIO-TEC</h1>
+      <p class="font-calibri text-muted mb-0">A project by apprentices, for apprentices.</p>
+      <p class="font-calibri">Made by:<a href="http://senabiotecnologia.blogspot.com/" class="text-muted">
+          <u>Sena</u></a>
       </p>
-    </center>
-      <br> 
-  </div>
+    </header>
 
-    <div class="row">
-      <!-- BIOTECNOLOGÍA VEGETAL-->
-      <div class="col-lg-6 mb-3 mb-lg-0 mb-sm-2 mt-4">
-      <a class="text-light" data-bs-toggle="modal" href="#Modalvegetal">
-        <div class="hover hover-1 text-white rounded"><img src="images/bio/vegetal2.jpg" alt="">
-          <div class="hover-1-content px-5 py-4">
-          <br>  
-            <h3 class="hover-1-title text-uppercase mb-0"> <span class="font-weight-light fw-bold">VEGETAL BIOTECHNOLOGY</h3>
-            <p class="hover-1-description font-weight-light mb-0 fw-semibold"> Alteration of various genetic characteristics of some plants.
-            <br>
-            </p>
+    <!-- DEMO 1 -->
+    <div class="py-5" id="WTIS">
+    <div class="row g-0 align-items-center justify-content-center">
+    <center>
+      <h2>BIOTECHNOLOGY</h2>
+        <p class="font-calibri text-muted mb-0 p-2 mb-5">In its most general conception, biotechnology refers to the use of living organisms or their subcellular components for the production of substances, development of processes or creation of services. Biotechnology includes several branches such as environmental, human, plant, industrial and animal. In this article we present some aspects of animal biotechnology, particularly those derived from the knowledge and manipulation of genetic material.
+        </p>
+      </center>
+        <br> 
+    </div>
+
+      <div class="row">
+        <!-- BIOTECNOLOGÍA VEGETAL-->
+        <div class="col-lg-6 mb-3 mb-lg-0 mb-sm-2 mt-4">
+        <a class="text-light" data-bs-toggle="modal" href="#Modalvegetal">
+          <div class="hover hover-1 text-white rounded"><img src="images/bio/vegetal2.jpg" alt="">
+            <div class="hover-1-content px-5 py-4">
+            <br>  
+              <h3 class="hover-1-title text-uppercase mb-0"> <span class="font-weight-light fw-bold">VEGETAL BIOTECHNOLOGY</h3>
+              <p class="hover-1-description font-weight-light mb-0 fw-semibold"> Alteration of various genetic characteristics of some plants.
+              <br>
+              </p>
+            </div>
           </div>
-        </div>
-      </a>
-</div>
+        </a>
+  </div>
 
       <!-- BIOTECNOLOGIA ANIMAL--->
       <div class="col-lg-6 mt-4">
@@ -87,16 +87,15 @@
   </div>
 </div>
 
-  <div id="AREAS">
-  <br>
+<div id="AREAS">
   <br>
     <center>
-    <h3 class="fw-semibold pb-3">BIOTECHNOLOGY AREAS</h3>
-      <br>
-      <p class="pb-5">
-      Due to the vast application of Biotechnology in various fields like medical, agriculture, dairy, textile, food, and many more industries, Biotechnology can be classified using a color code. Paweł Kafarski, who is the Faculty of Chemistry in the Department of Bioorganic Chemistry in 2012 classifies Biotechnology by using ten different color codes.
-      </p>
-      <br>
+      <h3 class="fw-semibold pb-3">BIOTECHNOLOGY AREAS</h3>
+        <br>
+        <p class="pb-5">
+        Due to the vast application of Biotechnology in various fields like medical, agriculture, dairy, textile, food, and many more industries, Biotechnology can be classified using a color code. Paweł Kafarski, who is the Faculty of Chemistry in the Department of Bioorganic Chemistry in 2012 classifies Biotechnology by using ten different color codes.
+        </p>
+        <br>
     </center>
       <div class="row">
         <div class="col-lg-4 mb-3 mb-lg-0 col-md-6">
@@ -235,7 +234,7 @@
         </div>
     </div>
   </div>
-
+  </div>
 
   <!------------MODALS--ANIMALS--------------->
   <div class="modal modal fade" id="Modalanimal" tabindex="-1" role="dialog" aria-hidden="true">
@@ -272,66 +271,12 @@
         </div>
     </div>
   </div>
-
+</div>
+</div>
    
  
 <!-- /#page-content-wrapper -->
-<section id="Information">
-  <footer class="site-footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12 col-md-6">
-          <h6>About</h6>
-          <p class="text-justify fw-semibold">
-            <i>BIOTEC</i> is a project created by trainees to satisfy the deficiencies in the English language presented by some of the SENA programs; in this case, Biotechnology and its branches. We hope you can enjoy and use <i>biotec</i> as a support tool.
-          </p>
-          <p align="justify" class="d-none d-lg-block">
-            Developed by: <br>
-            Program: Software analysis and development.<br>
-            Sena-CBA
-          </p>
-        </div>
 
-        <div class="col-sm-6 col-md-3">
-          <h6>Categories</h6>
-          <ul class="footer-links">
-            <li><a href="#VEGETAL_BIOTECHNOLOGY" class="selected">Vegetal Biotechnology</a></li>
-            <li><a href="#ANIMAL_BIOTECHNOLOGY" >Animal Biotechnology</a></li>
-            <li><a href="#ACTIVITIES">Activities</a></li>
-            <li><a href="http://scanfcode.com/category/java-programming-language/">Games</a></li>
-          </ul>
-        </div>
-
-        <div class="col-sm-6 col-md-3">
-          <h6>Quick Links</h6>
-          <ul class="footer-links">
-            <li><a href="">Contact Us</a></li>
-            <li><a href="">Information</a></li>
-            <li><a href="">Privacy Policy</a></li>
-            <li><a href="">Concerns, Petitions, Complaints and Grievances</a></li>
-          </ul>
-        </div>
-      </div>
-
-      <!-- Nueva sección para redes sociales y contacto -->
-      <div class="social-media-contact">
-        <div class="social-media">
-          <h6>Follow Us</h6>
-          <a href="https://www.facebook.com/profile.php?id=61565922017389" class="social-icon"><img src="images/concepts/facebook.png" alt="Facebook"></a>
-          <a href="https://twitter.com/@cbabiotecsena" class="social-icon"><img src="images/concepts/gorjeo.png" alt="Twitter"></a>
-          <a href="https://www.instagram.com/biotecsena/" class="social-icon"><img src="images/concepts/instagram.png" alt="Instagram"></a>
-          <a href="https://www.linkedin.com/in/biotec-sena-7197b532b/" class="social-icon"><img src="images/concepts/linkedin.png" alt="LinkedIn"></a>
-      
-        </div>
-
-        <div class="contact">
-          <h6>Contact Us</h6>
-          <p>Email: <a href="mailto:cbabiotecsena@gmail.com">cbabiotecsena@gmail.com</a></p>
-        </div>
-      </div>
-    </div>
-  </footer>
-</section>
 
 @endsection
   
