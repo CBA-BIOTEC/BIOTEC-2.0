@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="{!!asset('css/stylecardenglish.css')!!}">
     <link rel="stylesheet" href="{!!asset('css/modal.css')!!}">
     <link rel="stylesheet" href="{!!asset('css/footer.css')!!}">
+    <link rel="stylesheet" href="{!!asset('css/login.css')!!}">
+    <link rel="stylesheet" href="{!!asset('css/register.css')!!}">
     <link rel="stylesheet" href="{{ asset('public/css/profile.css') }}">
     
     

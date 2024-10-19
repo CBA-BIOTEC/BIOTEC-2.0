@@ -5,7 +5,7 @@
 <div class="container min-vh-100 d-flex justify-content-center align-items-center">
     <div class="row justify-content-center w-100">
         <div class="col-md-8">
-            <div class="card">
+            <div class="card fondoregister">
                 <div class="card-header">{{ __('Register') }}</div>
 
                 <div class="card-body">
