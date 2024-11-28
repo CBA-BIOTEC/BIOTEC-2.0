@@ -127,8 +127,8 @@
               </a>
               @else
                   <!-- Si no está autenticado, mostrar enlaces para iniciar sesión o registrarse -->
-                <a class="btn btn-primary nav-item me-3" href="{{ route('login') }}">{{ __('Login') }}</a>
-                <a class="btn btn-danger nav-item" href="{{ route('register') }}">{{ __('Register') }}</a>
+                <a class="btn btn-primary nav-item me-3 header-login" href="{{ route('login') }}">{{ __('Login') }}</a>
+                <a class="btn btn-danger nav-item header-register" href="{{ route('register') }}">{{ __('Register') }}</a>
                  
               @endif
             </div>            

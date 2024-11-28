@@ -21,11 +21,12 @@
         />
 
         <!-- Custom CSS -->
-        <link rel="stylesheet" href="{{ asset('public/css/profile.css') }}" />
+        <link rel="stylesheet" href="{{ asset('public/css/profile.css') }}">
 
 
         <link rel="stylesheet" href="{{ asset('bootstrap-5.3.2-dist/css/bootstrap.min.css') }}">
         <link rel="stylesheet" href="{{ asset('bootstrap-5.3.2-dist/js/bootstrap.min.js') }}">
+        <link rel="stylesheet" href="{{ asset('pu') }}"
         
     </head>
 
@@ -74,15 +75,15 @@
                                         <p class="password">**********</p>
                                     </div>
                                 </div>
-                                <div class="text-center">
+                                <div class="text-center submit-log">
                                     @if (Auth::check())
-                                        <button class="btn btn-danger button-out" style="font-family: 'Father Bold', sans-serif;">
+                                        <button class="btn btn-danger button-out submit-log" style="font-family: 'Father Bold', sans-serif;">
                                             <!-- Formulario para cerrar sesión -->
                                             <a class="dropdown-item" href="{{ route('logout') }}"
                                                onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
                                                 {{ __('LOG OUT') }}
                                             </a>
-                                            <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                                            <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none  ">
                                                 @csrf
                                             </form>
                                         </button>

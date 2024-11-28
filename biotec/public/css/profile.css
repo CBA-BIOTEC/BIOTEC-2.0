@@ -70,3 +70,12 @@
     text-align: center; /* Centra el texto dentro del botón */
     
 }
+
+.submit-log {
+    background-color: rgb(141, 89, 172);
+    border: none;
+}
+
+.submit-log:hover {
+    background-color:  rgb(184, 116, 223);
+}

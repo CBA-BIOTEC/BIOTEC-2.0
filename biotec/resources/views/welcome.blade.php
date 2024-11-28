@@ -19,12 +19,12 @@
             @if (Route::has('login'))
                 <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
                     @auth
-                        <a href="{{ url('/biotec') }}" class="btn btn_works">Home</a>
+                        <a href="{{ url('/biotec') }}" class="btn btn_works ">Home</a>
                     @else
                         <a href="{{ route('login') }}" class="btn btn_works">Log in</a>
 
                         @if (Route::has('register'))
-                            <a href="{{ route('register') }}" class="btn btn-succes">Register</a>
+                            <a href="{{ route('register') }}" class="btn btn-succes header-login">Register</a>
                         @endif
                     @endauth
                 </div>

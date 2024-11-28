@@ -1,3 +1,133 @@
-.colorfondo {
-    background-color: blueviolet;
+.color_fondo {
+    width: 50%;
+    height: 500px;
+    position: relative;
+    bottom: 25px;
+    left: 27%;
+    text-align: center;
+    color: rgb(101, 183, 60);
+    box-shadow: 1px 1px 20px rgb(20, 162, 1);
+    border-radius: 0px 0px 50px 50px;
+    background-color: #cbf386;
+    border: none;
+    font-size: 18px;
+
 }
+
+.login_css {
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 100px;
+    background-color: rgb(130, 199, 107);
+    text-shadow: 7px 7px 10px rgb(0, 0, 0);
+    box-shadow: 1px 0px 20px  #cbf386;
+    margin-bottom: -30px;
+    
+}
+
+.custom-labeel {
+    color: rgb(54, 121, 20);
+    position: relative;
+    right: 10px;
+    bottom: 20px;
+
+}
+
+.remember_css {
+    position: relative;
+    right: 15px;
+    bottom: 25px;
+    color:  #6a0dad 
+
+}
+.formulario_css {
+    padding-top: 100px;
+}
+
+.paswor_css {
+    color: #cd484a;
+    text-decoration: none;
+    padding-top: 10px;
+    position: relative;
+    right: 25%;
+    font-size: 18px;
+}
+
+.paswor_css:hover {
+    color: rgb(38, 62, 23);
+}
+
+.login_submit {
+    width: 200px;
+    position: relative;
+    right: 27%;
+    transition-duration: all 10s ease;
+    background-color: rgb(141, 89, 172);
+    border: none;
+    font-size: 20px;
+    
+}
+
+.login_submit:hover {
+    background-color:  rgb(184, 116, 223);
+    text-shadow: 1px 1px 1px color black,
+}
+
+.Password_c {
+    color:rgb(54, 121, 20);
+}
+
+.checkbox-css {
+    position: relative;
+    bottom: 25px;
+    left: 10px;
+}
+
+.eye {
+    border: none;
+    background: rgb(255, 241, 187);
+    background: yellowgreen;;
+}
+
+.eye:hover {
+    background-color: #a2ff00;
+}
+
+.input-pass {
+    background-color: #e4ffd4;
+}
+
+.input-pass:focus{
+    background: #e4ffd4;
+}
+
+.input-email {
+    background: #e4ffd4;
+}
+
+.input-email:focus {
+    background: #e4ffd4;
+}
+
+.header-login {
+    background-color: rgb(141, 89, 172);
+    border: none;
+}
+
+.header-login:hover {
+    background-color:  rgb(184, 116, 223);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
